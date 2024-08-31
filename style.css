@@ -62,17 +62,10 @@ nav ul li a:hover{
 }
 
 /* home  */
-.home{
-    width: 60%;
-    height: 90vh;
-    background-image: url(myimage.jpg);
-    background-size: cover;
-    border-radius: 10px;
-    margin-top: 10%;
-}
 .home-page{
     color: white;
     margin-top: 20%;
+    margin-left: 5px;
 }
 .home-page h2 span{
     color: red;
