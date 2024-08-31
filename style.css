@@ -10,15 +10,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(D:\Portfolio\imagee.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
 .con{
     display: flex;
     color: snow;
@@ -36,6 +27,9 @@ html{
     color: red;
 }
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    position: fixed;
    top:45px ;
    margin-left: 45%;
@@ -68,39 +62,38 @@ nav ul li a:hover{
 }
 
 /* home  */
+.home{
+    width: 60%;
+    height: 90vh;
+    background-image: url(myimage.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10%;
+}
 .home-page{
     color: white;
-    float: left;
-    top: 0;
-    left: 0;
+    margin-top: 20%;
 }
-.home-page h1{
-    margin-left: 30px;
-    font-size: 60px;
-    font-weight: 300;
-    margin-right: 25px;
-}
-.home-page h1 span{
+.home-page h2 span{
     color: red;
 }
+.home-page h2{
+    font-size: 60px;
+    font-weight: 500px;
+}
 .home-page h3{
-    margin-left: 35px;
-    font-size: 180%;
-    margin-top: 3px;
+    font-size: 30px;
+    font-weight: 300px;
 }
 .home-page p{
-    padding: 5px;
-    margin-top: 2px;
-    color: snow;
-    margin-left: 35px;
-    font-size: 17px;
+    font-size: medium;
 }
 
 /* ABOUT  */
 #about{
     padding: 80px 0;
     color: #ababab;
-    margin-top: 30%;
+    margin-top: 40%;
 }
 .row-about{
     display: flex;
