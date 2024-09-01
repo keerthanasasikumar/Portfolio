@@ -65,7 +65,7 @@ nav ul li a:hover{
 .home-page{
     color: white;
     margin-top: 20%;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 .home-page h2 span{
     color: red;
@@ -85,7 +85,7 @@ nav ul li a:hover{
 /* ABOUT  */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: snow;
     margin-top: 40%;
 }
 .row-about{
@@ -106,7 +106,7 @@ nav ul li a:hover{
 .sub-title{
     font-size: 60px;
     font-weight: 800;
-    color: snow;
+    color:#b54769;
 }
 .about-col-2 p{
     padding: 5px;
@@ -169,6 +169,7 @@ nav ul li a:hover{
     position: relative;
     font-size: 60px;
     font-weight: 800;
+    color: #b54769;
 }
 .tab-skills{
     display: flex;
@@ -234,6 +235,7 @@ nav ul li a:hover{
     position: relative;
     font-size: 60px;
     font-weight: 800;
+    color: #b54769;
 }
 .portfolio-container{
     display:flex;
@@ -333,7 +335,7 @@ nav ul li a:hover{
     padding: 80px 0;
     margin-top: 30%;
     margin-bottom: 5px;
-    color: white;
+    color: #b54769;
     text-align: center;
     font-size: 60px;
     font-weight: 800;
@@ -343,11 +345,11 @@ nav ul li a:hover{
     text-align: center;
     background-color:black;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #ad3e62;
+    box-shadow: 0 4px 8px #5c0822;
     padding: 20px;
     max-width: 500px;
     margin-left: 29%;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .contact h1{
     color:white;
@@ -417,6 +419,9 @@ nav .fa-solid{
         margin-left: 0;
         font-size: 24px;
     }
+    .home-page{
+        margin-top:47%;
+    }
     nav .fa-solid{
         display: block;
     }
@@ -465,13 +470,9 @@ nav .fa-solid{
         margin-left: 10px;
         margin-right: 10px;
     }
-    button {
-        margin-left: 0;
-        margin-top: 15px;
-    }
     #about {
         padding: 50px 0;
-        margin-top: 120%;
+        margin-top: 75%;
         flex-direction: row;
     }
     .row-about {
