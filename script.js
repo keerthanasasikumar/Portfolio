@@ -45,14 +45,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
             popup.style.display = 'block';
         });
     });
-
-    close.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
-
-    window.addEventListener('click', (event) => {
-        if (event.target == popup) {
-            popup.style.display = 'none';
-        }
-    });
 });
