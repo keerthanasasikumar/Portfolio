@@ -427,11 +427,15 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
     }
+    nav ul.active {
+        left: 0; 
+    }
+
     nav ul{
         background: black;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: 0;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
