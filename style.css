@@ -426,11 +426,9 @@ nav .fa-solid{
     }
     nav .fa-solid{
         display: block;
+        right: 0;
     }
-    nav ul.active {
-        left: 0; 
-    }
-
+    
     nav ul{
         background: black;
         position: fixed;
