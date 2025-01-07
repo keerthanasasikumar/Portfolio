@@ -340,6 +340,9 @@ nav .fa-solid{
     .home-page{
         margin-top:47%;
     }
+    .home-page h2{
+        font-size:20px;
+    }
     nav .fa-solid{
         display: block;
         right: 0;
