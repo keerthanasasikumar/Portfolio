@@ -24,7 +24,7 @@ html{
     margin-left: 45px;
 }
 .con h1::first-letter{
-    color: red;
+    color:#b54769;
 }
 nav {
     display: flex;
@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
    position: fixed;
    top:45px ;
-   margin-left: 45%;
+   margin-left: 35%;
    width: 100%;
    z-index: 1;
 }
@@ -58,7 +58,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: red;
+    color:#b54769;
 }
 
 /* home  */
@@ -68,7 +68,7 @@ nav ul li a:hover{
     margin-left: 50px;
 }
 .home-page h2 span{
-    color: red;
+    color:#b54769;
 }
 .home-page h2{
     font-size: 60px;
@@ -113,114 +113,34 @@ nav ul li a:hover{
     margin-top: 10px;
     font-size: larger;
 }
-.tabs{
-    display: flex;
-    margin: 0 40px;
+
+/* education */
+
+#education{
+    padding: 80px 0;
+    color: snow;
+    margin-top: 40%;
 }
-.tab-link{
-    margin-right: 50px;
-    font-size: 16px;
+.edu-page{
+    margin-left: 17%;
+    margin-top:20px;
+    font-size: 25px;
     font-weight: 400;
-    cursor: pointer;
-    position: relative;
-}
-.tab-link::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: 1px;
-    transition: 0.5s;
-}
-.tab-link.active-link::after{
-    width: 50%;
-}
-.tab-content ul li{
-    list-style: none;
-    margin: 10px 0;
-}
-.tab-content ul li span{
-    color:#b54769;
-    font-size: 14px;
-}
-.tab-content{
-    display: none;
-}
-.tab-content.active-tab{
-    display: block;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* skills */
 #skills{
-    color: snow;
-    margin-bottom: 5px;
     padding: 80px 0;
-    margin-top: 30%;
-}
-.skills p{
-    font-size: 30px;
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    margin-top: 40%;
 }
 .skills h2{
-    margin:30px auto;
-    text-align: center;
-    position: relative;
-    font-size: 60px;
-    font-weight: 800;
-    color: #b54769;
-}
-.tab-skills{
-    display: flex;
-    text-align: center;
-    margin-left: 26%;
-}
-.skill-col{
-    margin-right: 50px;
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    cursor: pointer;
-    position: relative;
-}
-.skill-col::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
-}
-.skill-col.skill-link::after{
-    width: 50%;
-}
-.skill{
-    display: flex;
-    margin: 20px;
-}
-.skill img{
-    width: 45px;
-    height: 45px;
     padding: 5px;
-    position: absolute;
-    opacity: 0.9;
-}
-.description{
     margin-top: 10px;
-    margin-left: 45px;
-    margin-bottom: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #ccc;
-}
-.skill-col-1{
-    display: none;
-}
-.skill-col-1.active-skill{
-    display: block;
+    margin-left: 5px;
 }
 /* protfolio */
 
@@ -228,18 +148,10 @@ nav ul li a:hover{
     color: snow;
     padding: 80px 0;
     margin-top: 30%;
-    margin-bottom: 5px;
-}
-#protfolio h1{
-    text-align: center;
-    margin:30px auto;
-    position: relative;
-    font-size: 60px;
-    font-weight: 800;
-    color: #b54769;
 }
 
 .protfolio-container {
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Ensures space between the cards */
@@ -338,20 +250,19 @@ nav ul li a:hover{
     margin-top: 30%;
     margin-bottom: 5px;
     color: #b54769;
-    text-align: center;
     font-size: 60px;
     font-weight: 800;
 }
 
 .contact{
+    margin-top: 10px;
     text-align: center;
     background-color:black;
     border-radius: 8px;
     box-shadow: 0 4px 8px #5c0822;
     padding: 20px;
     max-width: 500px;
-    margin-left: 29%;
-    margin-top: 10px;
+    margin-left: 20px;
 }
 .contact h1{
     color:white;
@@ -413,6 +324,11 @@ nav .fa-solid{
 
 
 @media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .con {
         flex-direction: column;
     }
@@ -442,7 +358,7 @@ nav .fa-solid{
     }
     nav ul li{
         display: block;
-        margin: 25px;
+        margin: 20px;
         color: #080808;
     }
     
@@ -499,59 +415,21 @@ nav .fa-solid{
         font-size: 40px;
         text-align: center;
     }
-    .tabs {
-        margin: 0 10px;
-        flex-direction: row;
-        align-items: center;
+    .about-col-2 p{
+        font-size: 20px;
     }
-    .tab-link {
-        margin-right: 0;
-        margin-bottom: 10px;
-        margin-left: 9px;
-    }
-    .tab-content{
-        margin-right: 0;
-        margin-bottom: 10px;
-        margin-left: 9px;
+    .edu-page{
+        font-size: 20px;
     }
     #skills {
         margin-top: 30%;
     }
-    .skills p {
-        font-size: 24px;
-    }
     .skills h2 {
-        font-size: 40px;
-    }
-    .tab-skills {
-        margin-left: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .skill-col {
-        margin-right: 0;
-        margin-bottom: 10px;
+        font-size: 20px;
     }
     .skill {
         flex-direction: column;
         align-items: center;
-    }
-    .skill img {
-        width: 55px;
-        height: 55px;
-        padding: 5px;
-        position: absolute;
-        left: 10px;
-        opacity: 1;
-        border-radius: 5px;
-    
-    }
-    .description {
-        margin-top: 10px;
-        margin-left: 40px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 18px;
     }
     #protfolio {
         margin-top: 80%;
